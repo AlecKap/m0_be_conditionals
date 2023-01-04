@@ -71,7 +71,8 @@ attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+puts "this line of code is going to again utilize the puts command to express the product of the evaluation, 
+is the value if attendies not equal to what ever the value of meals is. This will populate with true."
 
 #-------------------
 # PART 3: Logical Operators
