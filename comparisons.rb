@@ -43,36 +43,36 @@ numberDogs = 0
 # # this should print: true
 # puts "Is number_students less than or equal to 21?", number_students <= 21
 
-#-------------------
-# PART 2: Articulating what you are doing
-#-------------------
+# #-------------------
+# # PART 2: Articulating what you are doing
+# #-------------------
 
-# For the following prompts, you will be given a line of code and your task is to type out a Comment,
-# in English, explaining what that line of code is doing, including what the comparison will evaluate to.
-# Be as technically precise as possible, but don't just copy and paste a definition from the readings.
-# Make sure YOU can explain it that way!
+# # For the following prompts, you will be given a line of code and your task is to type out a Comment,
+# # in English, explaining what that line of code is doing, including what the comparison will evaluate to.
+# # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
+# # Make sure YOU can explain it that way!
 
-puts 4 < 9
-#YOU DO: Explain.
-puts "this line of code is going to utilize the puts command to express the product of the evaluation of 4 < 9. which will be true."
-books = 3
-puts 4 < books
-# YOU DO: Explain.
-puts "this line of code is going to again utilize the puts command to express the product of the evaluation 
-    of, is 4 less than what ever the value of books is. which it is not, so it will populate with false."
+# puts 4 < 9
+# #YOU DO: Explain.
+# puts "this line of code is going to utilize the puts command to express the product of the evaluation of 4 < 9. which will be true."
+# books = 3
+# puts 4 < books
+# # YOU DO: Explain.
+# puts "this line of code is going to again utilize the puts command to express the product of the evaluation 
+#     of, is 4 less than what ever the value of books is. which it is not, so it will populate with false."
 
-friends = 6
-siblings = 2
-puts friends > siblings
-# YOU DO: Explain.
-puts "this line of code is going to again utilize the puts command to express the product of the evaluation, 
-    is the value if friends greater than what ever the value of siblings is. which it is, so it will populate with true."
-attendees = 9
-meals = 8
-puts attendees != meals
-# YOU DO: Explain.
-puts "this line of code is going to again utilize the puts command to express the product of the evaluation, 
-is the value if attendies not equal to what ever the value of meals is. This will populate with true."
+# friends = 6
+# siblings = 2
+# puts friends > siblings
+# # YOU DO: Explain.
+# puts "this line of code is going to again utilize the puts command to express the product of the evaluation, 
+#     is the value if friends greater than what ever the value of siblings is. which it is, so it will populate with true."
+# attendees = 9
+# meals = 8
+# puts attendees != meals
+# # YOU DO: Explain.
+# puts "this line of code is going to again utilize the puts command to express the product of the evaluation, 
+# is the value if attendies not equal to what ever the value of meals is. This will populate with true."
 
 #-------------------
 # PART 3: Logical Operators
@@ -94,15 +94,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play and loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play and age
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+puts "my final line of code evaluated to true. I think this happened becasue age in this instance is being assigned a 1 or a 0 (true/false).
+    Because age has an assignment, it has a value so its value is 1 or true, which is equal to loves_to_play's value of true."
+
