@@ -17,31 +17,31 @@ number_students = 20
 string_teachers = "4"
 numberDogs = 0
 
-# EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
-puts "Is number_teachers greater than number_students?", number_teachers > number_students
-# this should print: "Is numberTeachers greater than numberStudents?" false
+# # EXAMPLE: print the result of the comparison: is number_seachers greater than number_students?
+# puts "Is number_teachers greater than number_students?", number_teachers > number_students
+# # this should print: "Is numberTeachers greater than numberStudents?" false
 
-# YOU DO: print the result of the comparison: is number_teachers less than number_students?
-# this should print: true
-puts "Is number_teachers less than number_students?", number_teachers < number_students
-# YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
-# this should print: false
-puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
-# YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
-# this should print: true
-puts "Is number_teachers not equal to number_students?", number_teachers != number_students
-# YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
-# this should print: true
-puts "Is number_students greater than or equal to 20?", number_students >= 20
-# YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
-# this should print: false
-puts "Is number_students greater than or equal to 21?", number_students >= 21
-# YOU DO: print the result of the comparison: is number_students less than or equal to 20?
-# this should print: true
-puts "Is number_students less than or equal to 20?", number_students <= 20
-# YOU DO: print the result of the comparison: is number_students less than or equal to 21?
-# this should print: true
-puts "Is number_students less than or equal to 21?", number_students <= 21
+# # YOU DO: print the result of the comparison: is number_teachers less than number_students?
+# # this should print: true
+# puts "Is number_teachers less than number_students?", number_teachers < number_students
+# # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
+# # this should print: false
+# puts "Is number_teachers equal to string_teachers?", number_teachers == string_teachers
+# # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
+# # this should print: true
+# puts "Is number_teachers not equal to number_students?", number_teachers != number_students
+# # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
+# # this should print: true
+# puts "Is number_students greater than or equal to 20?", number_students >= 20
+# # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
+# # this should print: false
+# puts "Is number_students greater than or equal to 21?", number_students >= 21
+# # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
+# # this should print: true
+# puts "Is number_students less than or equal to 20?", number_students <= 20
+# # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
+# # this should print: true
+# puts "Is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -54,16 +54,19 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 
 puts 4 < 9
 #YOU DO: Explain.
-
+puts "this line of code is going to utilize the puts command to express the product of the evaluation of 4 < 9. which will be true."
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+puts "this line of code is going to again utilize the puts command to express the product of the evaluation 
+    of, is 4 less than what ever the value of books is. which it is not, so it will populate with false."
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+puts "this line of code is going to again utilize the puts command to express the product of the evaluation, 
+    is the value if friends greater than what ever the value of siblings is. which it is, so it will populate with true."
 attendees = 9
 meals = 8
 puts attendees != meals
