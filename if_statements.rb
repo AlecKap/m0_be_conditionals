@@ -53,7 +53,9 @@ end
 
 #####################
 # Using the variables defined below, write code that will tell you
-# if you have the ingredients to make a pizza. A pizza requires 
+# if you have the ingredients to make a pizza. 
+
+#A pizza requires 
 # at least two cups of flour and sauce.
 
 # You should be able to change the variables to achieve the following outputs:
@@ -65,5 +67,15 @@ end
 # Experiment with manipulating the value held within both variables
 # to make sure all above conditions output what you expect.
 
-cups_of_flour = 1
+cups_of_flour = 3
 has_sauce = true
+
+if cups_of_flour >= 2 and has_sauce == true 
+  puts "I can make pizza!"
+
+elsif cups_of_flour >= 2 and has_sauce == false
+  puts "I cannot make pizza."
+
+else cups_of_flour <2 and has_sauce == true
+  puts "I cannot make pizza."
+end  
